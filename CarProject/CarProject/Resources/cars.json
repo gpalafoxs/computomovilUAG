@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "brand": "BMW",
+        "model": "GT4",
+        "motor": "S55 - 500 hps",
+        "imageName": "BMWM4GT4"
+    },
+    {
+        "id": 1,
+        "brand": "1M",
+        "model": "Best M car",
+        "motor": "H67 - 567 hps",
+        "imageName": "M1"
+    },
+    {
+        "id": 2,
+        "brand": "M4",
+        "model": "Best biturbo enfine",
+        "motor": "HorseBorne - 790 hps",
+        "imageName": "BMWM4"
+    }
+]
