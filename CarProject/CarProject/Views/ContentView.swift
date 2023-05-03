@@ -19,7 +19,7 @@ struct ContentView: View {
                     NavigationLink(destination: AditionCarView(carList: $carList), label: {
                         Text("Add")
                     })
-                    Button("Upadate") {
+                    Button("Update") {
                         carList = getCars()
                     }
                 }.padding()

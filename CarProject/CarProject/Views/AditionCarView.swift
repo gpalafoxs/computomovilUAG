@@ -10,7 +10,7 @@ import SwiftUI
 struct AditionCarView: View {
     
     enum CarImages: String, CaseIterable, Identifiable {
-        case M1, BMWM4, BMWM4GT4, AUDI, FERRARI
+        case M1, BMWM4, BMWM4GT4, AUDI, FERRARI, Forester, rav4, CRV, Rubicon
         var id: Self {self}
     }
     
@@ -74,6 +74,10 @@ struct AditionCarView: View {
                     Text("BMWM4GT4").tag(CarImages.BMWM4GT4)
                     Text("AUDI").tag(CarImages.AUDI)
                     Text("FERRARI").tag(CarImages.FERRARI)
+                    Text("FORESTER").tag(CarImages.Forester)
+                    Text("RAV 4").tag(CarImages.rav4)
+                    Text("CR-V").tag(CarImages.CRV)
+                    Text("Jeep Wrangler Rubicon").tag(CarImages.Rubicon)
                 }
                 Picker("Warranty", selection: $garantia) {
                     Text("Limited").tag(CarGarantia.LIMITED)
